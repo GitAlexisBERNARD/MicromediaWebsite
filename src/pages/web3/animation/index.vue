@@ -1,5 +1,5 @@
 <template>
-    <div class="overflow-hidden">
+    <div class="overflow-hidden scroll-smooth">
     <img src="../../../../public/img/right_one.png" alt="right pattern"
                     class="absolute top-0 right-0 w-[50%] lg:w-[30%] lg:h-[80%] z-30 md:w-[45%]" />
     <div>
@@ -10,7 +10,7 @@
         </div>
         <div class="flex flex-col gap-20 lg:pl-32 lg:pr-12 lg:mt-40">
         <div id="animation1" class="flex flex-col lg:flex-row lg:justify-start sm:mt-28">
-            <div class="relative overflow-hidden mx-auto w-72 h-72 bg-gray-200 border-2 border-black my-5 right-0">
+            <div class="relative overflow-hidden mx-auto lg:mr-2 lg:ml-[250px] w-72 h-72 bg-gray-200 border-2 border-black my-5 right-0">
             <div class="catwater"></div>
             </div>
             <p class="px-12 lg:p-2 lg:pl-2  lg:pr-72 lg:pt-6 lg:w-[600px] sm:px-16 min-[830px]:px-[200px]">Dive into this captivating first animation, where a cat-shaped mold continuously fills and empties, orchestrated by skillfully manipulated valve. This magical process gives birth to the adorable water cats, unique creatures of this universe <br><br><b>CSS Sprite Sheet Animation</b></p>
@@ -21,7 +21,7 @@
             <div id="animation2" class="flex flex-col lg:flex-row lg:justify-end">
                 <p class="p-2 pt-14 pl-72 pr-2 w-[600px] opacity-0 invisible lg:visible lg:opacity-100 sm:invisible sm:opacity-0 md:invisible md:opacity-0 2xl:visible 2xl:opacity-100 xl:visible xl:opacity-100">In this second scene, marvel at the water cat's head emerging from the frame to delicately perch upon an empty ice cream cone. Over time, it gently melts away to be reborn in a new form, beginning an endless cycle of icy transformation.<br><br><b>JS Loop Animation</b>
                 </p>
-                <div id="court">
+                <div id="court" class="lg:!mr-[220px] lg:!ml-[10px] mx-auto">
                      <svg id="glace" ref="glace" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
                             <defs>
                             </defs>
@@ -65,15 +65,15 @@
             </div>
         </div>
     <div id="animation3" class="flex flex-col lg:flex-row lg:justify-start">
-                <div class="lg:mr-3 relative overflow-hidden mx-auto w-72 h-72 bg-gray-200 border-2 border-black my-5 right-0">
+                <div class="lg:mr-3 lg:ml-[210px] relative overflow-hidden mx-auto w-72 h-72 bg-gray-200 border-2 border-black my-5 right-0">
                 <div class="catwatercolor"></div>
                 </div>
                <p class="px-12 lg:p-2 lg:pl-2  lg:pr-72 lg:pt-6 lg:w-[600px] sm:px-16 min-[830px]:px-[200px]">The third animation takes you on a hypnotic loop. Drops fall from a leaf, with each water droplet they generate continuously altering the color of the water cat, creating a captivating visual spectacle.<br><br><b>CSS Sprite Sheet Animation</b></p>
             </div>
             <div  id="animation4" class="flex flex-col lg:flex-row lg:justify-end lg:-mr-4">
-                <p class="p-2 pl-72 pr-2 w-[600px] opacity-0 invisible lg:visible lg:opacity-100 sm:invisible sm:opacity-0 md:invisible md:opacity-0 2xl:visible 2xl:opacity-100 xl:visible xl:opacity-100">The final animation features a curious water cat. With its skillful paw, it pours a drop of water into a cup, thus revealing its fluid nature in harmony with the aquatic element that composes it.<br><br><b>GSAP Library Animation</b>
+                <p class="p-2 pl-72 pr-2 w-[600px] opacity-0 invisible lg:visible lg:opacity-100 sm:invisible sm:opacity-0 md:invisible md:opacity-0 2xl:visible 2xl:opacity-100 xl:visible xl:opacity-100 lg:pt-8">The final animation features a curious water cat. With its skillful paw, it pours a drop of water into a cup, thus revealing its fluid nature in harmony with the aquatic element that composes it.<br><br><b>GSAP Library Animation</b>
                 </p>
-                <div class="my-5 relative overflow-hidden mx-auto w-72 h-72 bg-gray-200 border-2 border-black right-0">
+                <div class="my-5 relative overflow-hidden mx-auto lg:ml-2 lg:mr-[250px] w-72 h-72 bg-gray-200 border-2 border-black right-0">
                 <svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
             <defs>
             </defs>
@@ -103,10 +103,10 @@
             </g>
         </svg>  
                 </div>
-                    <p class="px-12 sm:px-16 lg:invisible lg:opacity-0 2xl:invisible 2xl:opacity-0 xl:invisible xl:opacity-0 min-[830px]:px-[200px] lg:absolute">The final animation features a curious water cat. With its skillful paw, it pours a drop of water into a cup, thus revealing its fluid nature in harmony with the aquatic element that composes it.<br><br><b>GSAP Library Animation</b>
+                    <p class="px-12 sm:px-16 lg:invisible lg:opacity-0 2xl:invisible 2xl:opacity-0 xl:invisible xl:opacity-0 min-[830px]:px-[200px] lg:absolute ">The final animation features a curious water cat. With its skillful paw, it pours a drop of water into a cup, thus revealing its fluid nature in harmony with the aquatic element that composes it.<br><br><b>GSAP Library Animation</b>
                     </p>                
             </div>
-                <img src="../../../../public/img/right_two.png" class="absolute right-0  mt-[1100px] w-[50%] sm:w-[35%] lg:-mt-[500px] lg:w-[20%] lg:h-[70%] -z-10 first-letter:" />
+                <img src="../../../../public/img/right_two.png" class="absolute right-0  mt-[1100px] w-[50%] sm:w-[35%] lg:mt-[830px] lg:w-[20%] lg:h-[70%] -z-10 first-letter:" />
             </div>
         </div>
         <div>
@@ -167,10 +167,9 @@
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    overflow: hidden;
-    margin: auto;
-    width: 300px;
-    height: 300px;
+    overflow: hidden; 
+    width: 288px;
+    height: 288px;
     background: #eee;
     border: solid black 2px;
     margin: 5%;
@@ -226,6 +225,16 @@
 <script setup lang="ts">
 import { ref, onMounted } from 'vue';
 import Cat_conne from '@/components/icons/Cat_conne.vue';
+import { gsap } from "gsap";
+import { useHead } from '@unhead/vue'
+useHead({
+    title: 'Water Cats',
+})
+import { useFavicon } from '@vueuse/core'
+const icon = useFavicon()
+icon.value = '../../../../public/Vector.png'
+
+
 
 const glace = ref(null);
 const animateCombined = () => {

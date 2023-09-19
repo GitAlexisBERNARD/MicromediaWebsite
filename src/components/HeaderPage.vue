@@ -28,7 +28,7 @@
                     :class="{ '!visible opacity-100': activeMenu }" v-scroll-lock="activeMenu">
                     <ul class="mt-24 lg:m-0 lg:flex lg:justify-end">
                         <li class="menu-item">
-                            <RouterLink class="menu-link" to="/" @click="closeMenu">Home</RouterLink>
+                            <RouterLink class="menu-link" to="/video" @click="closeMenu">Video</RouterLink>
                         </li>
                         <li class="menu-item">
                             <RouterLink class="menu-link" to="/web3" @click="closeMenu">Web3</RouterLink>

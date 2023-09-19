@@ -19,16 +19,16 @@
                 :class="{ '!visible opacity-100': activeMenu }" v-scroll-lock="activeMenu">
                 <ul class="mt-24 lg:m-0 lg:flex lg:justify-end">
                     <li class="menu-item">
-                        <a href="#animation1" class="menu-link" @click="closeMenu">Cat 1</a>
+                        <a href="#animation1" class="menu-link" @click="closeMenu" v-smooth-scroll>Cat 1</a>
                     </li>
                     <li class="menu-item">
-                        <a href="#animation2" class="menu-link" @click="closeMenu">Cat 2</a>
+                        <a href="#animation2" class="menu-link" @click="closeMenu" v-smooth-scroll>Cat 2</a>
                     </li>
                     <li class="menu-item">
-                        <a href="#animation3" class="menu-link" @click="closeMenu">Cat 3</a>
+                        <a href="#animation3" class="menu-link" @click="closeMenu" v-smooth-scroll>Cat 3</a>
                     </li>
                     <li class="menu-item">
-                        <a href="#animation4" class="menu-link" @click="closeMenu">Cat 4</a>
+                        <a href="#animation4" class="menu-link" @click="closeMenu" v-smooth-scroll>Cat 4</a>
                     </li>
                 </ul>
             </nav>

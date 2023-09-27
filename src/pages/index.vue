@@ -27,8 +27,8 @@
                 <Hero 
         		title="Portfolio"
                 subTitle="Go to my portfolio WebSite"
-                imgPath="./img/crd-int-01.webp"
-                imgAlt="Photo de l'entrée du Conservatoire Henri Dutilleux"
-        	/>
+                    imgPath="./img/crd-int-01.webp"
+                    imgAlt="Photo de l'entrée du Conservatoire Henri Dutilleux"
+                />
     </sections>
 </template>
